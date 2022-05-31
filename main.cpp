@@ -9,7 +9,7 @@ int main()
     Persona p;
     p.nombre="Pedro";
     p.edad= 39;
-    cout << p.nombre << endl;
-    cout << p.edad << endl;
+    cout <<"Nombre: " << p.nombre << endl;
+    cout << "Edad: " <<p.edad << endl;
     return 0;
 }
